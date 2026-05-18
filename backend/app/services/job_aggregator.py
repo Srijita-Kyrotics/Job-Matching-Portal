@@ -46,7 +46,7 @@ async def fetch_internshala(client: httpx.AsyncClient, query: str = "") -> List[
             "company": "TechVeda India",
             "location": "Bangalore",
             "description": "Looking for students skilled in Python, Django, and React for a 6-month internship. You will collaborate on core features, build responsive UIs, and work with SQLite/PostgreSQL databases.",
-            "url": "https://internshala.com/internships/python-internship/",
+            "url": "https://internshala.com/internships/software-development-internship/",
             "source": "internshala"
         },
         {
@@ -90,11 +90,11 @@ async def fetch_linkedin_mock(client: httpx.AsyncClient, query: str = "") -> Lis
     
     all_mock_jobs = [
         {
-            "title": "Software Engineer Intern - backend",
+            "title": "Software Engineer Intern - Backend",
             "company": "Google India",
             "location": "Bangalore, Karnataka",
             "description": "Join Google's cloud database engineering team. We are looking for interns with solid understanding of Python, FastAPI, Go, algorithms, and system design. You will write high-performance APIs and query optimizers.",
-            "url": "https://www.google.com/about/careers/applications/jobs/results/?q=Software%20Engineer",
+            "url": "https://www.google.com/about/careers/applications/jobs/results/?q=Software%20Engineer%20Intern%20Backend",
             "source": "linkedin"
         },
         {
@@ -102,7 +102,7 @@ async def fetch_linkedin_mock(client: httpx.AsyncClient, query: str = "") -> Lis
             "company": "Microsoft",
             "location": "Hyderabad, Telangana",
             "description": "Microsoft is seeking a Full Stack Developer experienced with React, TypeScript, C#, and Azure. Experience building responsive web applications, working with CSS/Tailwind, and state management is required.",
-            "url": "https://careers.microsoft.com/us/en/search-results?q=Software%20Engineer",
+            "url": "https://careers.microsoft.com/us/en/search-results?q=Full%20Stack%20Developer",
             "source": "linkedin"
         },
         {
@@ -110,7 +110,7 @@ async def fetch_linkedin_mock(client: httpx.AsyncClient, query: str = "") -> Lis
             "company": "Amazon",
             "location": "Chennai, Tamil Nadu",
             "description": "We are seeking Data Engineers to design scale storage pipelines. Proficiency in python, AWS, SQL databases, Spark, and ETL workflows is highly desired. Experience with big data technologies is a plus.",
-            "url": "https://www.amazon.jobs/en/search?base_query=Software%20Engineer",
+            "url": "https://www.amazon.jobs/en/search?base_query=Data%20Engineer&loc_query=India",
             "source": "linkedin"
         },
         {
@@ -118,7 +118,7 @@ async def fetch_linkedin_mock(client: httpx.AsyncClient, query: str = "") -> Lis
             "company": "Flipkart",
             "location": "Bangalore, India",
             "description": "Looking for React Frontend Specialists. Build premium ecommerce user interfaces with optimized render times. Solid knowledge of HTML5, CSS3, vanilla JS, React, and modular styling is mandatory.",
-            "url": "https://www.linkedin.com/jobs/search/?keywords=Flipkart%20Software%20Engineer",
+            "url": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Engineer%20React%20Flipkart&location=Bangalore",
             "source": "linkedin"
         },
         {
@@ -126,7 +126,7 @@ async def fetch_linkedin_mock(client: httpx.AsyncClient, query: str = "") -> Lis
             "company": "CRED",
             "location": "Remote (India)",
             "description": "Seeking exceptional backend fellows. Stack is Python, FastAPI, PostgreSQL, Redis, and Docker. Build low-latency financial ledger endpoints and transaction security pipelines.",
-            "url": "https://www.linkedin.com/jobs/search/?keywords=CRED%20Software%20Engineer",
+            "url": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Engineer%20CRED%20Python%20FastAPI",
             "source": "linkedin"
         }
     ]
